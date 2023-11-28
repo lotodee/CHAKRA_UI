@@ -2,6 +2,7 @@ import React from 'react'
 import { Box ,Text, Heading,Flex,HStack} from '@chakra-ui/react'
 const BottomNavBarItems = ({img}) => {
   return (
+ 
   <Flex justify="space-between">
    <Flex flexDirection="column" alignItems="center" justifyContent="center">
   <img src="taskImages/home.png" alt="" width="23.53px" height="20px"/>

@@ -8,9 +8,17 @@ const Budget = () => {
           bg : "green.100",
           h : "51px",
           w : "315px",
+    
+         
+         paddingBottom:"10px",
+         paddingTop:"5px",
+         paddingLeft:"15px",
           backgroundColor : "rgba(255, 255, 255, 1)",
           borderRadius : "10px",
           boxShadow : "0 4px 8px rgba(0, 0, 0, 0.1)" 
+            }
+            const textBox={
+              padding:``
             }
   return (
     <Box   p="10px">
@@ -25,7 +33,7 @@ const Budget = () => {
        </HStack>
        <Box sx={SecondBox}>
         
-      <Text fontWeight="700" py="1px" px="2px" fontSize="28">₦120,000</Text>
+      <Text fontWeight="700"  fontSize="28">₦120,000</Text>
      </Box>
     </Flex>
 
